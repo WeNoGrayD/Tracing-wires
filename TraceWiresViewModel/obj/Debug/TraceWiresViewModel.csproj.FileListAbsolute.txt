@@ -1,0 +1,9 @@
+C:\Users\Админ\source\repos\TraceWiresApplication\TraceWiresViewModel\bin\Debug\TraceWiresViewModel.dll
+C:\Users\Админ\source\repos\TraceWiresApplication\TraceWiresViewModel\bin\Debug\TraceWiresViewModel.pdb
+C:\Users\Админ\source\repos\TraceWiresApplication\TraceWiresViewModel\bin\Debug\TraceWiresClassLib.dll
+C:\Users\Админ\source\repos\TraceWiresApplication\TraceWiresViewModel\bin\Debug\TraceWiresClassLib.pdb
+C:\Users\Админ\source\repos\TraceWiresApplication\TraceWiresViewModel\obj\Debug\TraceWiresViewModel.csprojAssemblyReference.cache
+C:\Users\Админ\source\repos\TraceWiresApplication\TraceWiresViewModel\obj\Debug\TraceWiresViewModel.csproj.CoreCompileInputs.cache
+C:\Users\Админ\source\repos\TraceWiresApplication\TraceWiresViewModel\obj\Debug\TraceWiresViewModel.csproj.CopyComplete
+C:\Users\Админ\source\repos\TraceWiresApplication\TraceWiresViewModel\obj\Debug\TraceWiresViewModel.dll
+C:\Users\Админ\source\repos\TraceWiresApplication\TraceWiresViewModel\obj\Debug\TraceWiresViewModel.pdb

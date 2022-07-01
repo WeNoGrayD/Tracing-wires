@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BF821E70-A16E-42E9-A9F7-D940C681ACE3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TraceWiresApplication</RootNamespace>
+    <AssemblyName>TraceWiresApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="TWController.cs" />
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TraceWiresClassLib\TraceWiresClassLib.csproj">
+      <Project>{6bb2aa13-4af2-49a9-a873-31917fbba987}</Project>
+      <Name>TraceWiresClassLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TraceWiresViewModel\TraceWiresViewModel.csproj">
+      <Project>{45fd4f65-e853-42dd-8dc0-5b6d06f819a4}</Project>
+      <Name>TraceWiresViewModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icons\ArrowToDown.png" />
+    <Resource Include="icons\ArrowToLeft.png" />
+    <Resource Include="icons\ArrowToRight.png" />
+    <Resource Include="icons\ArrowToUp.png" />
+    <Resource Include="icons\CellFinish.png" />
+    <Resource Include="icons\CellStart.png" />
+    <Resource Include="icons\Contact.png" />
+    <Resource Include="icons\ContactWire17.png" />
+    <Resource Include="icons\ContactWire18.png" />
+    <Resource Include="icons\ContactWire20.png" />
+    <Resource Include="icons\ContactWire24.png" />
+    <Resource Include="icons\ContactWire35.png" />
+    <Resource Include="icons\ContactWire37.png" />
+    <Resource Include="icons\ContactWire38.png" />
+    <Resource Include="icons\ContactWire41.png" />
+    <Resource Include="icons\ContactWire42.png" />
+    <Resource Include="icons\ContactWire44.png" />
+    <Resource Include="icons\ContactWire55.png" />
+    <Resource Include="icons\ContactWire59.png" />
+    <Resource Include="icons\ContactWire61.png" />
+    <Resource Include="icons\ContactWire62.png" />
+    <Resource Include="icons\ContactWire79.png" />
+    <Resource Include="icons\CornerWire35.png" />
+    <Resource Include="icons\CornerWire37.png" />
+    <Resource Include="icons\CornerWire42.png" />
+    <Resource Include="icons\CornerWire44.png" />
+    <Resource Include="icons\CrossWire.png" />
+    <Resource Include="icons\HorizontalWire.png" />
+    <Resource Include="icons\TWire55.png" />
+    <Resource Include="icons\TWire59.png" />
+    <Resource Include="icons\TWire61.png" />
+    <Resource Include="icons\TWire62.png" />
+    <Resource Include="icons\VerticalWire.png" />
+    <Resource Include="icons\WireIntersection.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icons\ArrowToDown_old.png" />
+    <Resource Include="icons\ArrowToLeft_old.png" />
+    <Resource Include="icons\ArrowToRight_old.png" />
+    <Resource Include="icons\ArrowToUp_old.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icons\ScrollUp.png" />
+    <Resource Include="icons\ScrollDownLeft.png" />
+    <Resource Include="icons\ScrollUpRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icons\ScrollDown.png" />
+    <Resource Include="icons\ScrollDownRight.png" />
+    <Resource Include="icons\ScrollLeft.png" />
+    <Resource Include="icons\ScrollRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icons\ScrollDownDisabled.png" />
+    <Resource Include="icons\ScrollDownEnabled.png" />
+    <Resource Include="icons\ScrollDownLeftDisabled.png" />
+    <Resource Include="icons\ScrollDownLeftEnabled.png" />
+    <Resource Include="icons\ScrollDownRightDisabled.png" />
+    <Resource Include="icons\ScrollDownRightEnabled.png" />
+    <Resource Include="icons\ScrollLeftDisabled.png" />
+    <Resource Include="icons\ScrollLeftEnabled.png" />
+    <Resource Include="icons\ScrollRightDisabled.png" />
+    <Resource Include="icons\ScrollRightEnabled.png" />
+    <Resource Include="icons\ScrollUpDisabled.png" />
+    <Resource Include="icons\ScrollUpEnabled.png" />
+    <Resource Include="icons\ScrollUpLeftDisabled.png" />
+    <Resource Include="icons\ScrollUpLeftEnabled.png" />
+    <Resource Include="icons\ScrollUpRightDisabled.png" />
+    <Resource Include="icons\ScrollUpRightEnabled.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

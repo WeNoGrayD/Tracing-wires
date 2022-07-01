@@ -1,0 +1,110 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "SwiPLcs/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/SwiPLcs.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SwiPLcs.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win": {
+      "SwiPLcs/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/SwiPLcs.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SwiPLcs.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x64": {
+      "SwiPLcs/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/SwiPLcs.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SwiPLcs.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x86": {
+      "SwiPLcs/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/SwiPLcs.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SwiPLcs.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SwiPLcs/1.0.0": {
+      "type": "project",
+      "path": "../SwiPlCs/SwiPLcs.csproj",
+      "msbuildProject": "../SwiPlCs/SwiPLcs.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "SwiPLcs >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Админ\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Админ\\source\\repos\\TraceWiresApplication\\TraceWiresClassLib\\TraceWiresClassLib.csproj",
+      "projectName": "TraceWiresClassLib",
+      "projectPath": "C:\\Users\\Админ\\source\\repos\\TraceWiresApplication\\TraceWiresClassLib\\TraceWiresClassLib.csproj",
+      "packagesPath": "C:\\Users\\Админ\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Админ\\source\\repos\\TraceWiresApplication\\TraceWiresClassLib\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\Админ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "projectReferences": {
+            "C:\\Users\\Админ\\source\\repos\\TraceWiresApplication\\SwiPlCs\\SwiPLcs.csproj": {
+              "projectPath": "C:\\Users\\Админ\\source\\repos\\TraceWiresApplication\\SwiPlCs\\SwiPLcs.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net48": {}
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

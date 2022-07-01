@@ -1,0 +1,6 @@
+C:\Users\Админ\source\repos\TraceWiresApplication\TraceWiresClassLib\bin\Debug\TraceWiresClassLib.dll
+C:\Users\Админ\source\repos\TraceWiresApplication\TraceWiresClassLib\bin\Debug\TraceWiresClassLib.pdb
+C:\Users\Админ\source\repos\TraceWiresApplication\TraceWiresClassLib\obj\Debug\TraceWiresClassLib.csproj.CoreCompileInputs.cache
+C:\Users\Админ\source\repos\TraceWiresApplication\TraceWiresClassLib\obj\Debug\TraceWiresClassLib.dll
+C:\Users\Админ\source\repos\TraceWiresApplication\TraceWiresClassLib\obj\Debug\TraceWiresClassLib.pdb
+C:\Users\Админ\source\repos\TraceWiresApplication\TraceWiresClassLib\obj\Debug\TraceWiresClassLib.csprojAssemblyReference.cache
